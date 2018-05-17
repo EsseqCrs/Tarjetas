@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="410dp"
+    android:layout_height="wrap_content" >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="383dp"
+        android:layout_height="200dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <ImageView
+                    android:layout_width="98dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/imagenPerfil"
+                    />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:id="@+id/nombrePersona"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        />
+                    <TextView
+                        android:id="@+id/edadPersona"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/descripcionPersona"
+                android:layout_width="385dp"
+                android:layout_height="100dp"
+                android:layout_gravity="end" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+

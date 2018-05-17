@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Imagen"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "
+        />
+
+    <TextView
+        android:id="@+id/ApMaterno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido materno: "
+        />
+
+    <TextView
+        android:id="@+id/ApPaterno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido paterno: "
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edad: "
+        />
+
+    <TextView
+        android:id="@+id/Sangre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de sangre: "
+        />
+
+    <TextView
+        android:id="@+id/Tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefono: "
+        />
+
+    <TextView
+        android:id="@+id/Dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direccion: "
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado civil: "
+        />
+
+    <TextView
+        android:id="@+id/Proces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esta persona aun esta en proceso de ser registrada dentro de la app, se suplica paciencia :3"
+        />
+
+</LinearLayout>
